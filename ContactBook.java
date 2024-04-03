@@ -1,12 +1,12 @@
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class ContactBook {
-    private ArrayList<Contact> contacts;
+    private LinkedList<Contact> contacts;
     private Scanner scanner;
 
     public ContactBook() {
-        contacts = new ArrayList<>();
+        contacts = new LinkedList<>();
         scanner = new Scanner(System.in);
     }
 
